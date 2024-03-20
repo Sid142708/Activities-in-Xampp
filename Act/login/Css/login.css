@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #ffffff;
+    font-size: 14px;
+    background-color: rgb(253, 253, 253);
+    font-family: Helvetica;
+    background-image: url(Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    mix-blend-mode: multiply;
+}
+
+.wrapper .header {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+}
+
+.wrapper .header .top,
+.wrapper .signup {
+    background: #fff;
+    border: 1px solid #c0bcbc;
+    border-radius: 1px;
+    padding: 40px 40px 20px;
+}
+
+.wrapper .header .form .input_field {
+    margin-bottom: 5px;
+    border: 1px solid #3b3b49;
+}
+
+.wrapper .header .form .input_field .input {
+    width: 100%;
+    background: #fafafa;
+    border: 1px solid #efefef;
+    font-size: 12px;
+    border-radius: 3px;
+    color: #262626;
+    padding: 10px;
+}
+
+.wrapper .header .form .btn {
+    margin: 35px 0;
+    background-color: #3897f0;
+    border: 1px solid #333333;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px;
+}
+
+.wrapper .header .form {
+    color: #fff;
+    display: block;
+}
+
+.wrapper .header .or {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15px;
+    margin: 15px 0 20px;
+}
+
+.wrapper .header .or .line {
+    width: 105px;
+    height: 2px;
+    background: #efefef
+}
+
+.copyright {
+    color: #000000;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.button {
+    align-self: center;
+    margin: 10px 0;
+    background-color: #ffffff;
+    border: 1px solid #333333;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 1px;
+    border-radius: 10px;
+    width: 266px;
+}
+
+.button:hover {
+    background-color: #3897f0;
+    border: 1px solid #333333;
+}
+
+.underline-hover {
+    text-decoration: none;
+}
+
+.underline-hover:hover {
+    text-decoration: underline;
+}
